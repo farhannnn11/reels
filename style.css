@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+main{ 
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right bottom,rgb(26,26,26),rgb(35,35,35)),black;
+    padding: 10px;
+}
+section{
+    height: 100%;
+    width: 419px;
+    background-color: black;
+    margin: auto;
+    border-radius: 19px;
+    /* overflow: hidden; */
+    
+    
+}
+#all-reels{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+
+
+}
+#all-reels::-webkit-scrollbar{
+    display: none;
+}
+#reel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+#reel video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#reel #reel-bottom{
+    height: 15%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0),black);
+    bottom: 0;
+    position: absolute;
+    
+    
+}
+#reel-bottom .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px;
+}
+
+#reel-bottom .user img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#reel .user h2{
+    color: white;
+    font-size: 15px;
+
+}
+
+#reel .user button{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: none;
+    
+}
+#reel #reel-bottom h3{
+    color: white;
+    padding: 10px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 25px;
+    width: 40px;
+    font-size: 32px;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+#like-icon{
+    color: rgb(255, 255, 255);
+    
+}
+#comment-icon{
+    color: rgb(255, 255, 255);
+    
+}
+#share-icon{
+    color: rgb(255, 255, 255);
+    
+}
+#menu-icon{
+    color: rgb(255, 255, 255);
+    
+}
+h6{
+    color: white;
+    
+}
+.love{
+    color: red;
+}
