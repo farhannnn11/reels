@@ -164,4 +164,4 @@ reels.forEach(function(elem){
 allReel.innerHTML = sum    
 
     
-})
+}) 
