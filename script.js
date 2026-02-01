@@ -119,7 +119,7 @@ const reels = [
         shareCount: 92,
         isFollowed: true,
         caption: "GSAP can literally change your career. Start today.",
-        video: "./video5.mp4",
+        video: "./video6.mp4",
 
         userprofile: "https://images.unsplash.com/photo-1494790108377-be9c29b29330"
     }
