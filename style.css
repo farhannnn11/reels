@@ -115,10 +115,16 @@ section{
     color: rgb(255, 255, 255);
     
 }
-h6{
-    color: white;
-    
-}
+
 .love{
     color: red;
+}
+.right h4{
+    pointer-events: none;
+    cursor: pointer;
+    color: white;
+}
+.right h6{
+    pointer-events: none;
+    color: white;
 }
